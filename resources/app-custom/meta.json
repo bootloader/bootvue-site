@@ -2,12 +2,32 @@
     "resources": [
         {
             "contentType": "blog",
-            "file": "blog-name-or-id.html",
-            "filePath": "resources/app-custom/content/blog/blog-name-or-id.html",
-            "fileName": "blog-name-or-id",
+            "file": "blog-1.html",
+            "filePath": "resources/app-custom/content/blog/blog-1.html",
+            "fileName": "blog-1",
             "fileExtension": "html",
             "fileTags": {},
-            "info": {},
+            "info": {
+                "title": "Blog title 1",
+                "date": "July 11, 2024",
+                "navigate": "/blog/blog-1",
+                "order": "1"
+            },
+            "multiverse": {}
+        },
+        {
+            "contentType": "blog",
+            "file": "blog-2.html",
+            "filePath": "resources/app-custom/content/blog/blog-2.html",
+            "fileName": "blog-2",
+            "fileExtension": "html",
+            "fileTags": {},
+            "info": {
+                "title": "Blog title 2",
+                "date": "July 22, 2024",
+                "navigate": "/blog/blog-2",
+                "order": "2"
+            },
             "multiverse": {}
         },
         {
@@ -42,8 +62,8 @@
         }
     ],
     "updateTime": {
-        "str": "2025-01-16T07:08:01.780Z",
+        "str": "2025-11-03T10:38:01.541Z",
         "offset": "00.0",
-        "stamp": 1737011281780
+        "stamp": 1762166281541
     }
 }
