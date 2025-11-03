@@ -399,13 +399,15 @@
                     </form>
                 </div>
             </section>
-            <!-- Example -->
-            <!-- <ArticleList :contentType="'blogs'" v-slot="{ loading, results }">
+            <!-- Example - show list of blogs -->
+            <ArticleList :contentType="'blog'" v-slot="{ loading, results }">
                 <div v-if="loading" class="skeleton skeleton-blogs"></div>
                 <div v-else>
-                    {{ blogs }}
+                    <div v-for="blog in results">
+                        {{ blog.info }}
+                    </div>
                 </div>
-            </ArticleList> -->
+            </ArticleList>
         </div>
 
         <!-- Footer-->
